@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    /*outline: solid red;*/
+    outline: solid red;
 }
 
 header .navbar {
@@ -11,17 +11,16 @@ header .navbar {
 .hero-section {
     background-image: url(../img/ciudad.jpg);
     width: 100%;
-    padding-top: 104px;
+    padding-top: 0px;
     padding-bottom: 2055px;
-    height: 500px;
     margin-top: 0px;
-    background-position: right;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     color: white;
     position: relative;
 }
@@ -52,8 +51,8 @@ header .navbar {
 }
 
 .informacion h3 {
-    font-size: 3.2em;
-    letter-spacing: 2px;
+    font-size: 4.2em;
+    letter-spacing: 1px;
     color: white;
 }
 
@@ -61,4 +60,66 @@ header .navbar {
     font-size: 1.0em;
     letter-spacing: 2px;
     color: white;
+}
+
+.informacion h5 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#segundo {
+    background-image: url(../img/conduce.jpg);
+    width: 100%;
+    padding-top: 74px;
+    padding-bottom: 455px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.oscuro {
+    background-color: rgba(32, 23, 3, 072);
+    opacity: 0.5;
+    width: 50%;
+    height: 400px;
+}
+
+#tercero {
+    background-color: #f7b617;
+    width: 100%;
+    padding-top: 84px;
+    padding-bottom: 560px;
+    height: 100px;
+}
+
+#map {
+    height: 50vh;
+    width: 50%;
+    border: 2px solid black;
+}
+
+button {
+    margin: 15px auto;
+    padding: 10px 15px;
+    color: white;
+    background-color: white;
+    border: 0;
+    font-weight: 700;
+    border-radius: 2px;
+    font-family: "Raleway";
+    font-size: 15px;
+    display: block;
+}
+
+button:hover,
+button:focus {
+    outline: 0;
 }
