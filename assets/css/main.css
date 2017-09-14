@@ -1,125 +1,193 @@
-* {
-    padding: 0;
-    margin: 0;
-    outline: solid red;
-}
-
-header .navbar {
-    background-color: white;
-}
-
-.hero-section {
-    background-image: url(../img/ciudad.jpg);
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 2055px;
-    margin-top: 0px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    position: relative;
-}
-
-.fondo-naranja {
-    background-color: #f7b617;
-    width: 50%;
-    padding-top: 84px;
-    padding-bottom: 450px;
-    margin-top: -50px;
-    flex: right;
-}
-
-#primero {
-    background-color: #f7b617;
-    width: 100%;
-    padding-top: 84px;
-    padding-bottom: 560px;
-    height: 100px;
-}
-
-.informacion {
-    padding: 0px 30px;
-}
-
-.informacion img {
-    background-color: #f7b617;
-}
-
-.informacion h3 {
-    font-size: 4.2em;
-    letter-spacing: 1px;
-    color: white;
-}
-
-.informacion p {
-    font-size: 1.0em;
-    letter-spacing: 2px;
-    color: white;
-}
-
-.informacion h5 {
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    color: white;
-}
-
-#segundo {
-    background-image: url(../img/conduce.jpg);
-    width: 100%;
-    padding-top: 74px;
-    padding-bottom: 455px;
-    margin-top: 0px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    position: relative;
-}
-
-.oscuro {
-    background-color: rgba(32, 23, 3, 072);
-    opacity: 0.5;
-    width: 50%;
-    height: 400px;
-}
-
-#tercero {
-    background-color: #f7b617;
-    width: 100%;
-    padding-top: 84px;
-    padding-bottom: 560px;
-    height: 100px;
-}
-
-#map {
-    height: 50vh;
-    width: 50%;
-    border: 2px solid black;
-}
-
-button {
-    margin: 15px auto;
-    padding: 10px 15px;
-    color: white;
-    background-color: white;
-    border: 0;
-    font-weight: 700;
-    border-radius: 2px;
-    font-family: "Raleway";
-    font-size: 15px;
-    display: block;
-}
-
-button:hover,
-button:focus {
-    outline: 0;
-}
+                * {
+                    padding: 0px;
+                    margin: 0px;
+                    /*outline: solid red;*/
+                }
+                
+                body {
+                    margin: 0 auto;
+                    font-size: 16px;
+                    line-height: 1.71429;
+                    background-color: #fff;
+                    /* Enlaza la tipografia Open Sans */
+                }
+                
+                header .navbar {
+                    background-color: white;
+                }
+                
+                #home {
+                    background-image: url(../img/ciudad.jpg);
+                    height: 1000px;
+                    width: 100%;
+                    margin-top: 0px;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    justify-content: center;
+                    align-items: center;
+                    align-items: center;
+                    flex-direction: column;
+                    color: whitesmoke;
+                }
+                
+                .fondo-naranja {
+                    background-color: #f7b617;
+                    width: 50%;
+                    height: 400px;
+                    top: 20px;
+                    margin-left: 759px;
+                    position: relative;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                    background-position: right top;
+                }
+                
+                .mt-0 {
+                    font-size: 8px;
+                    text-align: center;
+                }
+                
+                #primero {
+                    background-color: #f7b617;
+                    width: 100%;
+                    padding-top: 84px;
+                    padding-bottom: 560px;
+                    height: 100px;
+                }
+                
+                .informacion {
+                    padding: 0px 30px;
+                }
+                
+                .informacion img {
+                    background-color: #f7b617;
+                }
+                
+                .informacion h3 {
+                    font-size: 4.2em;
+                    letter-spacing: 1px;
+                    color: white;
+                }
+                
+                .informacion p {
+                    font-size: 1.0em;
+                    letter-spacing: 2px;
+                    color: white;
+                }
+                
+                .informacion h5 {
+                    font-size: 1.2em;
+                    letter-spacing: 1px;
+                    color: white;
+                }
+                
+                #segundo {
+                    background-image: url(../img/conduce.jpg);
+                    width: 100%;
+                    padding-top: 74px;
+                    padding-bottom: 455px;
+                    margin-top: 0px;
+                    background-position: center center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                    color: white;
+                    position: relative;
+                }
+                
+                .oscuro {
+                    background-color: rgba(32, 23, 3, 072);
+                    opacity: 0.5;
+                    width: 50%;
+                    height: 400px;
+                }
+                
+                #tercero {
+                    background-color: #f7b617;
+                    width: 100%;
+                    padding-top: 84px;
+                    padding-bottom: 560px;
+                    height: 100px;
+                }
+                
+                #map {
+                    height: 50vh;
+                    width: 50%;
+                    border: 2px solid black;
+                }
+                
+                button {
+                    margin: 15px auto;
+                    padding: 10px 15px;
+                    color: white;
+                    background-color: white;
+                    border: 0;
+                    font-weight: 700;
+                    border-radius: 2px;
+                    font-family: "Raleway";
+                    font-size: 15px;
+                    display: block;
+                }
+                
+                button:hover,
+                button:focus {
+                    outline: 0;
+                }
+                
+                footer {
+                    background: #2b2b2b;
+                    color: #FFF;
+                    padding: 40px 0;
+                }
+                
+                footer .nav a {
+                    width: 100%;
+                    display: block;
+                    padding: 20px;
+                    color: #FFF;
+                    text-decoration: none;
+                    border-bottom: 1px solid rgba(255, 255, 255, .2);
+                    font-size: 12px;
+                }
+                
+                footer .container .row ul {
+                    /*    padding-left: 40px;*/
+                    list-style: none;
+                }
+                
+                .footer a {
+                    background: white;
+                    color: #70726F;
+                    font-size: 20px;
+                    padding: 40px;
+                    border-right: 1px solid #70726F;
+                    transition: all .5s ease;
+                }
+                
+                .footer a:first-child {
+                    border-left: 1px solid #70726F;
+                }
+                
+                .footer a:hover {
+                    color: rebeccapurple;
+                }
+                
+                footer .nav a:hover {
+                    text-decoration: underline;
+                }
+                
+                .line1 {
+                    height: 0px;
+                    background-color: #fff;
+                }
+                
+                .line2 {
+                    height: 0px;
+                    background-color: #fff;
+                }
