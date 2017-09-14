@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*outline: solid red;*/
+}
+
+header .navbar {
+    background-color: white;
+}
+
+.hero-section {
+    background-image: url(../img/ciudad.jpg);
+    width: 100%;
+    padding-top: 104px;
+    padding-bottom: 2055px;
+    height: 500px;
+    margin-top: 0px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    text-align: right;
+    color: white;
+    position: relative;
+}
+
+.fondo-naranja {
+    background-color: #f7b617;
+    width: 50%;
+    padding-top: 84px;
+    padding-bottom: 450px;
+    margin-top: -50px;
+    flex: right;
+}
+
+#primero {
+    background-color: #f7b617;
+    width: 100%;
+    padding-top: 84px;
+    padding-bottom: 560px;
+    height: 100px;
+}
+
+.informacion {
+    padding: 0px 30px;
+}
+
+.informacion img {
+    background-color: #f7b617;
+}
+
+.informacion h3 {
+    font-size: 3.2em;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.informacion p {
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    color: white;
+}
